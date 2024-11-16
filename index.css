@@ -27,7 +27,8 @@ body {
     grid-template-areas:
                         "content"
                         "listing"
-                        "actual";
+                        "actual"
+                        "ad";
     gap: 20px;
 }
 
@@ -36,7 +37,8 @@ body {
         grid-template-areas:
                         "content"
                         "listing"
-                        "actual";
+                        "actual"
+                        "ad";
         grid-template-columns: 100%;
     }
 }
@@ -87,15 +89,8 @@ body {
 }
 
 .ad {
-    display: none;
     grid-area: ad;
     background-color: #f87373;
-}
-
-@media screen and (min-width: 768px) {
-    .ad {
-        display: block;
-    }
 }
 
 .actual {
